@@ -13,23 +13,22 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository to your local machine:
 
-   ```bash
    git clone https://github.com/yourusername/health-fitness-chatbot.git
 Change into the project directory:
-  ```bash
+
 cd health-fitness-chatbot
 
 2. Install dependencies:
-  ```bash
+
 pip install -r requirements.txt
 
 3. Set up OpenAI API Key:
 Obtain your OpenAI API key from the OpenAI platform. Export the API key as an environment variable:
-  ```bash
+
 export OPENAI_API_KEY=your_api_key_here
 
 4. Run the Flask application:
-  ```bash
+
 python app.py
 The application will be running at http://127.0.0.1:5000/. Open this URL in your browser.
 
