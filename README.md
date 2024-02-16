@@ -14,9 +14,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository to your local machine:
 
    git clone https://github.com/yourusername/health-fitness-chatbot.git
-Change into the project directory:
-
-cd health-fitness-chatbot
+Change into the project directory: cd health-fitness-chatbot
 
 2. Install dependencies:
 
@@ -30,9 +28,10 @@ export OPENAI_API_KEY=your_api_key_here
 4. Run the Flask application:
 
 python app.py
-The application will be running at http://127.0.0.1:5000/. Open this URL in your browser.
+The application will be running at http://127.0.0.1:5000/. 
+Open this URL in your browser.
 
 Usage
 Open the application in your browser.
 Type your message in the input field and click "Send."
-The chatbot will generate a response using the GPT-3.5-turbo model.
+The chatbot will generate a response using the GPT-3.5-turbo model and other Health fitness API.
